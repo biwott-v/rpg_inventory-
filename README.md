@@ -25,17 +25,8 @@ cargo run
 
 ##  Output Rust playgournd
 
-![RPG Inventory Output](screenshot.png)
+![RPG Inventory Output](src/screenshot.png)
 
-##  Project Structure
-
-```
-rpg_inventory-/
-├── README.md
-├── LICENSE
-├── rpg_inventory.rs    
-└── screenshot.png        
-```
 
 ##  Code Overview
 
@@ -68,7 +59,7 @@ struct Inventory {
 
 ```
 
-## 📄 License
+## License
 
 MIT License - see LICENSE file for details
 
