@@ -1,0 +1,43 @@
+Task: RPG Inventory System
+
+Requirements:
+
+Create an inventory system with the following features:
+
+Struct Item:
+
+name: String
+
+item_type: ItemType (enum: Weapon, Armor, Potion)
+
+value: u32
+
+Struct Inventory:
+
+items: Vec
+
+max_slots: usize
+
+Methods to implement:
+
+add_item(item: Item) -> Result<(), String>
+
+remove_item(index: usize) -> Result<Item, String>
+
+get_item(index: usize) -> Option<&Item>
+
+is_full() -> bool
+
+total_value() -> u32
+
+Main program:
+
+Add 5 different items
+
+Try adding an item when the inventory is full → handle the error
+
+Remove a specific item
+
+Calculate the total value of all items
+
+Print all items
