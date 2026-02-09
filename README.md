@@ -10,7 +10,7 @@ A simple inventory management system written in Rust, demonstrating object-orien
 - **Value Calculation**: Calculate total value of all items
 - **Capacity Management**: Enforce maximum inventory slots
 
-##  Quick Start
+##  Setup
 
 ```bash
 # Compile and run
@@ -26,6 +26,8 @@ cargo run
 ##  Output Rust playgournd
 
 ![RPG Inventory Output](screenshot.png)
+
+*https://play.rust-lang.org/?version=beta&mode=debug&edition=2024&gist=b9a393c6193955606ca0099a22fd48ce*
 
 
 ##  Code Overview
