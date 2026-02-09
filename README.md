@@ -25,7 +25,7 @@ cargo run
 
 ##  Output Rust playgournd
 
-![RPG Inventory Output](src/screenshot.png)
+![RPG Inventory Output](screenshot.png)
 
 
 ##  Code Overview
